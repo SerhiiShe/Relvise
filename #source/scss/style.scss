@@ -1,0 +1,25 @@
+$color1: #252B42; //heading color, dark blue
+$color2: #737373; //body text color, grey
+$color3: #fff; // body text color, white
+$color4: #0D5C63; // button color, green
+$color5: #FF7B47; // button color, orange
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+@import "null_style.scss";
+@import "header.scss";
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: $color1;
+    font-size: 14px;
+    font-weight: 500;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+._container {
+    max-width: 1046px;
+    margin: 0px auto;
+}
